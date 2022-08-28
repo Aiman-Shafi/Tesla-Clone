@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@layer components {
+  .snap-feature {
+    @apply snap-y snap-mandatory h-screen overflow-scroll scroll-smooth transition-all duration-500;
+  }
+
+  .side-nav {
+    @apply bg-white transition-all duration-700 fixed top-0 right-[-100%] w-1/2 md:w-1/6 h-screen z-30 p-10 shadow-2xl;
+  }
+
+  .close-icon {
+    @apply w-12 h-12 duration-500 hover:bg-slate-200 rounded-full p-1 cursor-pointer;
+  }
+
+  .nav-bar {
+    @apply flex justify-between w-full fixed top-0 z-10 h-28 px-10 items-center;
+  }
+
+  .nav-items {
+    @apply text-2xl font-semibold text-slate-900 py-2 px-5 mt-5 rounded-[1.2rem] md:bg-transparent duration-500 bg-opacity-40 hover:bg-slate-300 hover:bg-opacity-50 outline-none;
+  }
+
+  .car-section {
+    @apply w-full h-screen relative snap-always snap-start;
+  }
+
+  .car-img {
+    @apply w-full h-full object-cover;
+  }
+
+  .car-details {
+    @apply absolute top-[20%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center;
+  }
+
+  .car-name {
+    @apply text-[4rem] text-slate-800 font-semibold;
+  }
+
+  .car-tagline {
+    @apply text-2xl text-slate-800;
+  }
+
+  .car-buttons {
+    @apply absolute bottom-[15%] left-[50%] translate-x-[-50%] translate-y-[-50%] flex flex-col md:flex-row;
+  }
+
+  .btn {
+    @apply inline-block text-xl text-white bg-gray-700 px-10 pt-4 mx-2 my-2 font-medium text-center rounded-[10rem] uppercase w-[25rem] h-16;
+  }
+
+  .inventory {
+    @apply bg-slate-100 text-gray-900;
+  }
+
+  .down-arrow {
+    @apply absolute bottom-[6%] left-[50%] translate-x-[-50%] translate-y-[-50%];
+  }
+}

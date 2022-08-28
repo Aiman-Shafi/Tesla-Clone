@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesla Clone | By Aiman Shafi</title>
+    <link
+      rel="shortcut icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/1200px-Tesla_T_symbol.svg.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body>
+    <div id="sideNav" class="side-nav">
+      <div class="flex justify-end">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="close-icon"
+          id="closeIcon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+      <div class="flex flex-col mt-[10rem]">
+        <a href="#modelS" class="nav-items">Model S</a>
+        <a href="#model3" class="nav-items">Model 3</a>
+        <a href="#modelX" class="nav-items">Model X </a>
+        <a href="#modelY" class="nav-items">Model Y</a>
+        <a href="#solarRoof" class="nav-items">Solar Roof</a>
+        <a href="#solarPanel" class="nav-items">Solar Panels</a>
+      </div>
+    </div>
+    <main id="mainDiv" class="snap-feature">
+      <!-- header  -->
+      <header class="relative">
+        <!-- navigation -->
+        <nav class="nav-bar">
+          <!-- logo  -->
+          <div class="logo mr-[9.5rem] cursor-pointer">
+            <a href="#model3">
+              <svg
+                class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon h-6"
+                viewBox="0 0 342 35"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 .1a9.7 9.7 0 007 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 007-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 006-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 00-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 13.8h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zm0 14.1h26a9.6 9.6 0 007.1-7H78.3a9.6 9.6 0 007 7zM308.5 7h26a9.6 9.6 0 007-7h-40a9.6 9.6 0 007 7z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </a>
+          </div>
+
+          <!-- nav items  -->
+          <div class="hidden lg:block">
+            <a href="#modelS" class="nav-items">Model S</a>
+            <a href="#model3" class="nav-items">Model 3</a>
+            <a href="#modelX" class="nav-items">Model X</a>
+            <a href="#modelY" class="nav-items">Model Y</a>
+            <a href="#solarRoof" class="nav-items">Solar Roof</a>
+            <a href="#solarPanel" class="nav-items">Solar Panel</a>
+          </div>
+
+          <!-- external links  -->
+          <div class="links">
+            <a href="#shop" class="nav-items hidden lg:inline">Shop</a>
+            <a href="#account" class="nav-items hidden lg:inline">Account</a>
+            <a href="#" class="nav-items" id="menu"> Menu</a>
+          </div>
+        </nav>
+      </header>
+
+      <!-- hero section model  3-->
+      <section id="model3" class="car-section">
+        <img
+          class="car-img"
+          src="https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD"
+          alt="model 3"
+        />
+        <div class="car-details">
+          <h2 class="car-name">Model 3</h2>
+          <p class="car-tagline">
+            Order Online for <span class="underline"> Touchless Delivery </span>
+          </p>
+        </div>
+
+        <div class="car-buttons">
+          <a href="#" class="btn">Custom Order</a>
+          <a href="#" class="btn inventory">Existing Inventory</a>
+        </div>
+
+        <div class="down-arrow">
+          <a href="#modelY">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- hero section model  Y-->
+      <section id="modelY" class="car-section">
+        <img
+          class="car-img"
+          src="https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70"
+          alt="model y"
+        />
+        <div class="car-details">
+          <h2 class="car-name">Model Y</h2>
+          <p class="car-tagline">
+            Order Online for <span class="underline"> Touchless Delivery </span>
+          </p>
+        </div>
+
+        <div class="car-buttons">
+          <a href="#" class="btn">Custom Order</a>
+          <a href="#" class="btn inventory">Existing Inventory</a>
+        </div>
+
+        <div class="down-arrow">
+          <a href="#modelX">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- hero section model X -->
+      <section id="modelX" class="car-section">
+        <img
+          class="car-img"
+          src="https://tesla-cdn.thron.com/delivery/public/image/tesla/ddc135ed-1638-40fb-8ab1-f8045059ecef/bvlatuR/std/4096x2560/Homepage-Model-X-Desktop-LHD"
+          alt="model X"
+        />
+        <div class="car-details">
+          <h2 class="car-name">Model X</h2>
+          <p class="car-tagline">
+            Order Online for <span class="underline"> Touchless Delivery </span>
+          </p>
+        </div>
+
+        <div class="car-buttons">
+          <a href="#" class="btn">Custom Order</a>
+          <a href="#" class="btn inventory">Existing Inventory</a>
+        </div>
+
+        <div class="down-arrow">
+          <a href="#modelS">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- hero section model S -->
+      <section id="modelS" class="car-section">
+        <img
+          class="car-img"
+          src="https://tesla-cdn.thron.com/delivery/public/image/tesla/538ac149-d103-4834-9d38-641d8ae447ef/bvlatuR/std/4096x2560/Homepage-Model-S-Desktop-LHD"
+          alt="model S"
+        />
+        <div class="car-details">
+          <h2 class="car-name">Model S</h2>
+          <p class="car-tagline">
+            Order Online for <span class="underline"> Touchless Delivery </span>
+          </p>
+        </div>
+
+        <div class="car-buttons">
+          <a href="#" class="btn">Custom Order</a>
+          <a href="#" class="btn inventory">Existing Inventory</a>
+        </div>
+
+        <div class="down-arrow">
+          <a href="#solarPanel">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- hero section Solar Panel -->
+      <section id="solarPanel" class="car-section">
+        <img
+          class="car-img"
+          src="https://tesla-cdn.thron.com/delivery/public/image/tesla/16b04537-a4be-4bf9-8637-86862a858da8/bvlatuR/std/2880x1800/_25-HP-SolarPanels-D"
+          alt="Solar Panel"
+        />
+        <div class="car-details">
+          <h2 class="car-name">Solar Panel</h2>
+          <p class="car-tagline">Lowest Cost Solar Panels in America</p>
+        </div>
+
+        <div class="car-buttons">
+          <a href="#" class="btn">Order Now</a>
+          <a href="#" class="btn inventory">Learn More</a>
+        </div>
+
+        <div class="down-arrow">
+          <a href="#solarRoof">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+
+      <!-- hero section Solar Roof -->
+      <section id="solarRoof" class="car-section">
+        <img
+          class="car-img"
+          src="https://tesla-cdn.thron.com/delivery/public/image/tesla/4a41ec0e-7316-46a8-8ce9-e2f195ba644d/bvlatuR/std/2880x1800/Homepage-SolarRoof-Desktop-Global?quality=auto-medium&format=auto"
+          alt="Solar Panel"
+        />
+        <div class="car-details">
+          <h2 class="car-name">Solar Roof</h2>
+          <p class="car-tagline">Lowest Cost Solar Panels in America</p>
+        </div>
+
+        <div class="car-buttons">
+          <a href="#" class="btn">Order Now</a>
+          <a href="#" class="btn inventory">Learn More</a>
+        </div>
+
+        <div class="down-arrow">
+          <a href="#modelS">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-12 h-12 animate-bounce"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      // open side menu
+      document.getElementById("menu").addEventListener("click", () => {
+        document.getElementById("sideNav").classList.remove("right-[-50%]");
+        document.getElementById("sideNav").classList.add("right-0");
+        document.getElementById("mainDiv").classList.add("blur-sm");
+      });
+
+      // close side menu
+      document.getElementById("closeIcon").addEventListener("click", () => {
+        document.getElementById("sideNav").classList.add("right-[-50%]");
+        document.getElementById("sideNav").classList.remove("right-0");
+        document.getElementById("mainDiv").classList.remove("blur-sm");
+      });
+    </script>
+  </body>
+</html>
