@@ -3,5 +3,5 @@
 
 Live link: https://aiman-shafi.github.io/Tesla-Clone/
 
-<img scr=""/>
+![alt text](https://github.com/Aiman-Shafi/Tesla-Clone/blob/main/src/coverpic.png?raw=true)
 
