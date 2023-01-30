@@ -26,3 +26,6 @@ Creating a website for large screen which includes architect plan and details of
 ### 1. Home page 
  ✅ A fullscreen video as clients requirements.
  
+ ![enter image description here](https://github.com/Aiman-Shafi/Tesla-Clone/blob/main/src/coverpic.png?raw=true)
+
+ 
