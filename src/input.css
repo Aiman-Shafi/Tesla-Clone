@@ -17,7 +17,7 @@ html {
 
 @layer components {
   .snap-feature {
-    @apply snap-y snap-mandatory h-screen overflow-scroll scroll-smooth transition-all duration-500;
+    @apply snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth transition-all duration-500;
   }
 
   .side-nav {
